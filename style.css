@@ -1,0 +1,61 @@
+*{
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+.about-heading1 {
+	text-align: center;
+	color: #006494;
+}
+
+.about-heading2 {
+	width: 25%;
+	height:5px;
+
+	margin: 0 auto 0 auto;
+
+	background-color:#1b2225 ;}
+
+    .about-us-detail{font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;}
+
+
+
+  .card-font{background-color:#006494;
+font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  
+  }
+.card-font-1{
+
+	background-color:#1b2225 ;
+background-color: #eae6dfc8;
+font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+
+
+
+}
+.btn {
+	background-color: #c1121f;
+	background-color: #669bbc;
+	background-color:#b23a48 ;
+
+}
+
+/* i tried this approach but didnt work
+
+
+.navbar-nav{
+	display: flex;
+	flex-direction: row;
+}
+*/
