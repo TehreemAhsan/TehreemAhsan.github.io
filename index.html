@@ -36,7 +36,7 @@
 		<nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
 			<div class="container-fluid">
 				<a class="navbar-brand my-1 ms-1 p-0" href="#"
-					><img src="3rd Burger Shop imgs/logo.png" width="75" height="50" />
+					><img src="3rd Burger Shop imgs/logo.png" width="75" height="70" />
 				</a>
 
 				<button
@@ -53,23 +53,19 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-0 mb-lg-0">
+						
+						
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Logo</a>
+							<a class="nav-link" href="#aboutus">About Us</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a>
+							<a class="nav-link" href="#burgers">Burgers</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
+							<a class="nav-link" href="#deals">Our Deals</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Burgers</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Our Deals</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact Us</a>
+							<a class="nav-link" href="#contact">Contact Us</a>
 						</li>
 					</ul>
 				</div>
@@ -113,7 +109,7 @@
 
 		<div class="container">
 			<!----------------------------------About Us starts----------------------------->
-			<div class="row my-5">
+			<div class="row my-4" id="aboutus">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 					<h1 class="about-heading1">
 						About<span style="color: #1b2225"> Us</span>
@@ -237,10 +233,10 @@
 					</div>
 				</div>
         <!---About Us image Column>-->
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 align-items-center">
 					<img
 						src="3rd Burger Shop imgs/sideimage.jpg "
-						width="600px" height="500" class="border border-2 rounded-4 mt-5" />
+						width="400px" height="300" class="border border-2 rounded-4 mt-5 " />
 				</div>
 			</div>
 
@@ -248,7 +244,7 @@
 
 			<!------------------------------Our Burgers starts--------------------------------------->
 			<!----------- heading row Our Burgers starts ---------------->
-			<div class="row my-5">
+			<div class="row my-5" id="burgers">
 				<div class="col-12 col-sm-12 col-md-12 col-lg-12">
 					<h1 class="about-heading1">
 						Our<span style="color: #1b2225"> Burgers</span>
@@ -259,7 +255,7 @@
 			<!------------ heading row Our Burgers ends------------------->
 			<!--*************---????????did u add container between heading row and deatils row?????--**************>
 
-			<!-------------Cards  of Our Burgers row on---------------->
+			<!-=------------Cards  of Our Burgers row starts---------------->
 			<div class="row align-items-center ">
 				<div class="col-12 col-sm-12 col-md-4 col-lg-4">
 					<div class="card card-font" style="width: 18rem">
@@ -279,14 +275,14 @@
 				</div>
 
 				<div class="col-12 col-sm-12 col-md-4 col-lg-4">
-					<div class="card card-font-middle" style="width: 18rem">
+					<div class="card card-font-middle z-1 " style="width: 18rem">
 						<img
 							src="3rd Burger Shop imgs/145-1457032_chicken-spot-chicken-burger-hd-png-download.png"
 							class="card-img-top mt-2"
 							height="200"
 							alt="..."
 						/>
-						<div class="card-body text-center">
+						<div class="card-body text-center ">
 							<h5 class="card-title">Chicken Burger</h5>
 							<button class="btn btn-middle mt-2" type="submit">
 								Order now
@@ -312,13 +308,13 @@
 					</div>
 				</div>
 			</div>
-			<!-------------Cards  of Our Burgers row on---------------->
+			<!-------------Cards  of Our Burgers row ends---------------->
 			<!-------------------------------Burgers ends--------------------------------------->
 
 			<!-----------------------------------------Our Deals stars----------------------------->
 
 			<!---- heading row of our deals starts-->
-			<div class="row my-5">
+			<div class="row my-5" id="deals">
 				<div class="col-12">
 					<h1 class="about-heading1">
 						Our<span style="color: #1b2225"> Deals</span>
@@ -329,44 +325,124 @@
 			</div>
 			<!---- heading row of our deals ends-->
 			<!--Imagies container of row of our deals starts-->
-     <div class="container ">
-			<div class="row">
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
-					<img
-						src="3rd Burger Shop imgs/deal1.jpg"
-						class="img-fluid p-0"
-						alt="..."
-					/>
-					
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
-					<img
-						src="3rd Burger Shop imgs/deal4.jpg"
-						class="img-fluid"
-						alt="..."
-					/>
-				</div>
-			</div>
+     <!-- <div class="container "> -->
+		
+<div class="row my-4">
+  <!-- <div class="col-sm-6 mb-3 mb-sm-0"> -->
+	<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="card card-font bg-light">
+		<img src="./3rd Burger Shop imgs/deal1.jpg" class="img-fluid" alt="...">
+      <div class="card-body text-center ">
+        <h5 class="card-title">Special deal of <span style="color: #006494; ">Beef Burgers </span> </h5>
+        <p class="card-text">With Choice of your drinks and sauces.</p>
+        <a href="#" class="btn btn-primary">Order now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="card card-font bg-light">
+		<img src="./3rd Burger Shop imgs/deal2.jpg" class="img-fluid" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">Special deal of <span style="color: #006494; ">Beef Burgers </span> </h5>
+        <p class="card-text">With choice of you drinks and fries..</p>
+        <a href="#" class="btn btn-primary">Order now</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-			<div class="row mt-4">
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
-					<img
-						src="3rd Burger Shop imgs/deal2.jpg"
-						class="img-fluid"
-						alt="..."
-					/>
-				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
-					<img
-						src="3rd Burger Shop imgs/deal3.jpg"
-						class="img-fluid"
-						alt="..."
-					/>
-				</div>
+
+
+
+
+ <div class="row">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="card card-font bg-light ">
+		<img src="./3rd Burger Shop imgs/deal3.jpg" class="img-fluid" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">Special deal of <span style="color: #006494; ">Chicken Burgers </span></h5>
+        <p class="card-text"> With choice of you drinks and fries.</p>
+        <a href="#" class="btn btn-primary">Order now</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="card card-font bg-light ">
+		<img src="./3rd Burger Shop imgs/deal4.jpg" class="img-fluid" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title">Special deal of <span style="color: #006494; ">Chicken Burgers </span> </h5>
+        <p class="card-text">With choice of you drinks and fries.</p>
+        <a href="#" class="btn btn-primary">Order now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+           	
 				<!--Imagies container of row of our deals ends-->
-				<!-------------- Our deals ends--------------------------------------------->
+<!-------------------------- Our deals ends--------------------------------------------->
+
+
+<!---------------------------- Contact Us starts------------------------------------------->
+<!---- contact us row of our deals starts-->
+			<div class="row my-5" id="contact">
+				<div class="col-12">
+					<h1 class="about-heading1">
+						Contact<span style="color: #1b2225"> Us</span>
+					</h1>
+					<hr class="about-heading2" />
+				</div>
+      
+			</div>
+			<!---- contact us row of our deals ends-->
+<div class="row">
+	<!---Contact Us Column-->
+	<div class=".col-12 col-sm-12 col-md-6 col-lg-6 bg-primary-subtle">
+		<form class="row g-3">
+
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+			   <label for="name4" class="form-label" placeholder="Type your name here">Name</label>
+			   <input type="text" class="form-control" id="name4">
+			 </div>
+
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+    <label for="Email4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="Email4">
+  </div>
+
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+    <label for="msg4" class="form-label">Message</label>
+    <textarea type="text" class="form-control" id="msg4" placeholder="Write your message here" rows="5"></textarea>
+  </div>
+  
+  <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+</div>
+	<!---Google Map Column-->
+
+	<div class=".col-12 col-sm-12 col-md-6 col-lg-6">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3579.2221927107425!2d50.63016639982759!3d26.22196901249591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbh!4v1714432442290!5m2!1sen!2sbh" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+	
+</div>
+
+
+
+				<!-------------- Contact Us ends--------------------------------------------->
+
+
+
+
 			</div>
 		</div>
     </div>
+
+	<div class="container-fluid p-3 bg-black text-white
+	footer">
+		<h6 class="footer1"> All right reserved @TheBurgeLine
+
+		</h6>
+	</div>
 	</body>
 </html>
