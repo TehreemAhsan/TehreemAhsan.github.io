@@ -93,12 +93,7 @@ background-color: #b23a48;
 	background-color: #4e7689;
 	color:aliceblue;
 }
-/* i tried this approach but didnt work
-.navbar-nav{
-	display: flex;
-	flex-direction: row;
-}
-*/
+
 .footer1{
 	/* background-color: black; */
 	
