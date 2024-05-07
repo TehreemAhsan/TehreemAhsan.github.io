@@ -1,0 +1,172 @@
+/* SCSS HEX */
+$rich-black: #0d1b2aff;
+$oxford-blue: #1b263bff;
+$yinmn-blue: #415a77ff;
+$silver-lake-blue: #778da9ff;
+$platinum: #e0e1ddff;
+
+
+/* SCSS HEX */
+$space-cadet: #22223bff;
+$ultra-violet: #4a4e69ff;
+$rose-quartz: #9a8c98ff;
+$pale-dogwood: rgb(239, 233, 231);
+$isabelline: #f2e9e4ff;
+
+
+/* SCSS HSL */
+$space-cadet: hsla(240, 27%, 18%, 1);
+$ultra-violet: hsla(232, 17%, 35%, 1);
+$rose-quartz: hsla(309, 6%, 58%, 1);
+$pale-dogwood: hsla(11, 24%, 72%, 1);
+$isabelline: hsla(21, 35%, 92%, 1);
+
+/* SCSS HEX */
+$isabelline: #edede9ff;
+$timberwolf: #d6ccc2ff;
+$linen: #f5ebe0ff;
+$champagne-pink: #e3d5caff;
+$pale-dogwood: #d5bdafff;
+
+ 
+
+
+@mixin nav-items{
+  background:$ultra-violet;
+  color: $isabelline;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+background: $silver-lake-blue;
+
+}
+.background-nav {
+
+@include nav-items;
+a {
+color:$platinum};
+}
+
+
+.carousel-item{
+    z-index:0;
+
+}
+
+.bg-platinum{background:$platinum;}
+
+
+.home-text{
+z-index: 9;
+position: absolute;
+top:0;
+left:80%;
+font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: $yinmn-blue;
+  letter-spacing: 0.2rem;
+}
+
+.project-row-2{
+  border: 2px double  $space-cadet;
+
+a{
+  text-decoration: none;
+  color:$ultra-violet;
+  &:hover{
+   background: $rich-black;
+   color:$platinum;
+   padding: 0.8rem;
+   border-radius:50px;
+   -webkit-border-radius:50px;
+   -moz-border-radius:50px;
+   -ms-border-radius:50px;
+   -o-border-radius:50px;
+}
+}
+
+
+}
+.headings
+{font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $oxford-blue;}
+
+  .about-bg
+  { background:$champagne-pink  ;
+    
+ font-family: "Inconsolata",monospace ;
+
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  }
+
+  .cv {
+    color: $rich-black;
+    a{
+  text-decoration: none;
+  color:$ultra-violet;
+  &:hover{
+    background: $rich-black;
+    color:$platinum;
+   padding: 0.5rem;
+
+  }
+  }}
+
+  .footer{
+@include nav-items;
+
+padding: 5px 0 1px 0;
+
+    display:flex;
+    flex: {
+      direction: row;
+    }
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+
+  li{
+    list-style: none;
+  }
+
+    a{
+      text-decoration: none;
+     @include nav-items;
+     &:hover{
+      background: $rose-quartz;
+      padding: 1rem;
+     }
+     
+     
+    }
+  }
+  
+  .cv-img{
+position:relative;
+    button{
+     position:absolute;
+     
+     bottom:85%;
+     left:70%;
+     padding: 1rem;
+
+     
+     }
+    
+    
+    }
+    
